@@ -193,7 +193,7 @@ export default function HomePage() {
               marginBottom: 14,
             }}>Which goal can you check off your list?</h2>
             <p style={{ color: '#6b7280', fontSize: 15, maxWidth: 520, margin: '0 auto' }}>
-              Whether you're saving for retirement, building an emergency fund, or planning for education — XYZ has you covered.
+              Whether you're saving for retirement, building an emergency fund, or planning for education — AWA-asset has you covered.
             </p>
           </div>
 
@@ -293,19 +293,19 @@ export default function HomePage() {
           }}>
             {[
               {
-                name: 'XYZ 500 Index Fund', type: 'Mutual Fund',
+                name: 'AWA-asset 500 Index Fund', type: 'Mutual Fund',
                 return: '+14.2%', period: '10-yr avg annual',
                 er: '0.04%', desc: 'Tracks the performance of 500 large-cap U.S. stocks.',
                 to: '/products/mutual-funds',
               },
               {
-                name: 'XYZ Total Market ETF', type: 'ETF',
+                name: 'AWA-asset Total Market ETF', type: 'ETF',
                 return: '+13.8%', period: '10-yr avg annual',
                 er: '0.03%', desc: 'Broad exposure to the entire U.S. stock market.',
                 to: '/products/etfs',
               },
               {
-                name: 'XYZ Bond Index Fund', type: 'Mutual Fund',
+                name: 'AWA-asset Bond Index Fund', type: 'Mutual Fund',
                 return: '+4.1%', period: '10-yr avg annual',
                 er: '0.05%', desc: 'Diversified exposure to the U.S. bond market.',
                 to: '/products/mutual-funds',
@@ -346,7 +346,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* WHY XYZ — STATS */}
+      {/* WHY AWA-asset — STATS */}
       <section style={{
         padding: '80px 0',
         background: 'linear-gradient(135deg, #0a1628 0%, #112240 50%, #1d3461 100%)',
@@ -357,7 +357,7 @@ export default function HomePage() {
               fontSize: 12, fontWeight: 700,
               letterSpacing: '1.2px', textTransform: 'uppercase',
               color: '#e5b55a', marginBottom: 10,
-            }}>WHY CHOOSE XYZ</p>
+            }}>WHY CHOOSE AWA-asset</p>
             <h2 style={{
               fontFamily: 'Playfair Display, serif',
               fontSize: '2.2rem',
@@ -377,7 +377,7 @@ export default function HomePage() {
             margin: '0 auto 56px',
           }}>
             <Stat value="50M+" label="investors trust us with their money" />
-            <Stat value="84%" label="of XYZ funds outperformed peer-group averages" />
+            <Stat value="84%" label="of AWA-asset funds outperformed peer-group averages" />
             <Stat value="$9T+" label="in global assets under management" />
             <Stat value="0.06%" label="average expense ratio — industry-leading low" />
           </div>
@@ -398,7 +398,7 @@ export default function HomePage() {
               onMouseEnter={e => e.currentTarget.style.background = '#e5b55a'}
               onMouseLeave={e => e.currentTarget.style.background = '#c8973a'}
             >
-              Learn about XYZ
+              Learn about AWA-asset
             </Link>
           </div>
         </div>
@@ -605,7 +605,7 @@ export default function HomePage() {
                 Trusted by investors. Built on principles.
               </div>
               <p style={{ color: '#6b7280', fontSize: 13 }}>
-                XYZ Investments is committed to low costs, transparency, and putting investors first — always.
+                AWA-asset Investments is committed to low costs, transparency, and putting investors first — always.
               </p>
             </div>
           </div>

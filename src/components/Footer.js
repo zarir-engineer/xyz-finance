@@ -39,9 +39,9 @@ const footerCols = [
     ],
   },
   {
-    heading: 'About XYZ',
+    heading: 'About AWA-asset',
     links: [
-      { label: 'Why choose XYZ', to: '/about' },
+      { label: 'Why choose AWA-asset', to: '/about' },
       { label: 'Our principles', to: '/about/principles' },
       { label: 'Careers', to: '/about/careers' },
       { label: 'Contact us', to: '/contact' },
@@ -68,7 +68,7 @@ export default function Footer() {
           Start investing in your goals today
         </h2>
         <p style={{ color: '#9aaec4', marginBottom: 28, fontSize: 15 }}>
-          Join thousands of investors who trust XYZ to grow their wealth.
+          Join thousands of investors who trust AWA-asset to grow their wealth.
         </p>
         <Link to="/open-account" style={{
           display: 'inline-block',
@@ -149,7 +149,7 @@ export default function Footer() {
               color: '#fff',
               marginBottom: 8,
             }}>
-              XYZ <span style={{ color: '#c8973a' }}>Investments</span>
+              AWA-asset <span style={{ color: '#c8973a' }}>Investments</span>
             </div>
             <p style={{ fontSize: 12, lineHeight: 1.6, maxWidth: 420, color: '#6b7c93' }}>
               India's Leading Multi-Asset Firm. We educate, guide, and empower our clients
@@ -173,7 +173,7 @@ export default function Footer() {
             ))}
           </div>
           <p style={{ width: '100%', fontSize: 11, color: '#4a5568', marginTop: 8 }}>
-            © {new Date().getFullYear()} XYZ Investments. All rights reserved.
+            © {new Date().getFullYear()} AWA-asset Investments. All rights reserved.
           </p>
         </div>
       </div>

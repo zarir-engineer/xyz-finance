@@ -33,9 +33,9 @@ const navItems = [
     ],
   },
   {
-    label: 'About XYZ',
+    label: 'About AWA-asset',
     children: [
-      { label: 'Why choose XYZ', to: '/about' },
+      { label: 'Why choose AWA-asset', to: '/about' },
       { label: 'Our principles', to: '/about/principles' },
       { label: 'News & research', to: '/about/news' },
       { label: 'Careers', to: '/about/careers' },
@@ -140,7 +140,7 @@ export default function Navbar() {
               fontWeight: 700, color: '#0a1628',
               letterSpacing: '-0.3px', whiteSpace: 'nowrap',
             }}>
-              XYZ <span style={{ color: '#c8973a' }}>Finance</span>
+              AWA-asset <span style={{ color: '#c8973a' }}>Finance</span>
             </span>
           </Link>
 
